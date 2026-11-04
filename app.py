@@ -2,7 +2,7 @@ import streamlit as st
 from openai import OpenAI
 from pypdf import PdfReader
 
-st.title("Deep Sea")
+st.title("Can AI think like human")
 st.write("Upload your documents and ask a question.")
 
 api_key = st.text_input("OpenAI API key", type="password")
